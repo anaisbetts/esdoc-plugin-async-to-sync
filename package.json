@@ -1,6 +1,6 @@
 {
   "name": "esdoc-plugin-async-to-sync",
-  "version": "0.0.1",
+  "version": "0.5.0",
   "description": "ESDoc plugin that copies documentation from async methods to their sync versions",
   "main": "lib/main.js",
   "scripts": {
