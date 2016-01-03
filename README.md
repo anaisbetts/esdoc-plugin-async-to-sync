@@ -52,6 +52,24 @@ Documentation substitution occurs if:
 1. The sync method doesn't have documentation and the async one does
 
 
+## How does this work?
+
+`npm install` the package, then add it to your esdoc.json:
+
+```js
+{
+  // Other stuff...
+
+  "plugins": [
+    {"name": "esdoc-plugin-async-to-sync"}
+  ],
+
+  // More stuff
+}
+
+```
+
+
 ## Does this handle callbacks?
 
 Ugh no, PRs welcome
