@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/paulcbetts/esdoc-plugin-async-to-sync",
   "dependencies": {
-    "lodash": "^3.10.1"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {
     "babel-cli": "^6.3.17",
